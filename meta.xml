@@ -1,197 +1,201 @@
-﻿<meta> 
-    <export function="getMods" type="client" />
+﻿<meta>
+    <script src="settings.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="window.lua" type="client" cache="false" />
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
 	
-    <file src = "files/402.txd" download = "false" model = "402" isim="2010 Ford Mustang" category="vehicles"/>
-	<file src = "files/402.dff" download = "false" model = "402" isim="2010 Ford Mustang" category="vehicles"/>
+    <file src = "files/vehicles/402.txd" download = "false" model = "402" name="2010 Ford Mustang"/>
+	<file src = "files/vehicles/402.dff" download = "false" model = "402" name="2010 Ford Mustang"/>
 	
-    <file src = "files/534.txd" download = "false" model = "534" isim="1962 Cadillac Hardtop" category="vehicles"/>
-	<file src = "files/534.dff" download = "false" model = "534" isim="1962 Cadillac Hardtop" category="vehicles"/>
+    <file src = "files/vehicles/534.txd" download = "false" model = "534" name="1962 Cadillac Hardtop"/>
+	<file src = "files/vehicles/534.dff" download = "false" model = "534" name="1962 Cadillac Hardtop"/>
 	
-    <file src = "files/475.txd" download = "false" model = "475" isim="1971 Pontiac Firebird 400" category="vehicles"/>
-	<file src = "files/475.dff" download = "false" model = "475" isim="1971 Pontiac Firebird 400" category="vehicles"/>
+	<file src = "files/vehicles/475.txd" download = "false" model = "475" name="1971 Pontiac Firebird 400"/>
+	<file src = "files/vehicles/475.dff" download = "false" model = "475" name="1971 Pontiac Firebird 400"/>
 	
-    <file src = "files/603.txd" download = "false" model = "603" isim="1970 Ford Mustang Boss 302" category="vehicles"/>
-	<file src = "files/603.dff" download = "false" model = "603" isim="1970 Ford Mustang Boss 302" category="vehicles"/>
+    <file src = "files/vehicles/603.txd" download = "false" model = "603" name="1970 Ford Mustang Boss 302"/>
+	<file src = "files/vehicles/603.dff" download = "false" model = "603" name="1970 Ford Mustang Boss 302"/>
 	
-	<file src = "files/567.txd" download = "false" model = "567" isim="1970 Chevrolet Caprice" category="vehicles"/>
-	<file src = "files/567.dff" download = "false" model = "567" isim="1970 Chevrolet Caprice" category="vehicles"/>
+	<file src = "files/vehicles/567.txd" download = "false" model = "567" name="1970 Chevrolet Caprice"/>
+	<file src = "files/vehicles/567.dff" download = "false" model = "567" name="1970 Chevrolet Caprice"/>
 	
-	<file src = "files/576.txd" download = "false" model = "576" isim="1959 Chevy İmpla" category="vehicles"/>
-	<file src = "files/576.dff" download = "false" model = "576" isim="1959 Chevy İmpala" category="vehicles"/>
+	<file src = "files/vehicles/576.txd" download = "false" model = "576" name="1959 Chevy İmpla"/>
+	<file src = "files/vehicles/576.dff" download = "false" model = "576" name="1959 Chevy İmpala"/>
 	
-	<file src = "files/429.txd" download = "false" model = "429" isim="2012 Viper RT/10" category="vehicles"/>
-	<file src = "files/429.dff" download = "false" model = "429" isim="2012 Viper RT/10" category="vehicles"/>
+	<file src = "files/vehicles/429.txd" download = "false" model = "429" name="2012 Viper RT/10"/>
+	<file src = "files/vehicles/429.dff" download = "false" model = "429" name="2012 Viper RT/10"/>
 	
-	<file src = "files/411.txd" download = "false" model = "411" isim="1991 Honda NSX" category="vehicles"/>
-	<file src = "files/411.dff" download = "false" model = "411" isim="1991 Honda NSX" category="vehicles"/>
+	<file src = "files/vehicles/411.txd" download = "false" model = "411" name="1991 Honda NSX"/>
+	<file src = "files/vehicles/411.dff" download = "false" model = "411" name="1991 Honda NSX"/>
 	
-	<file src = "files/506.txd" download = "false" model = "506" isim="1991 Mitsubishi 3000GT" category="vehicles"/>
-	<file src = "files/506.dff" download = "false" model = "506" isim="1991 Mitsubishi 3000GT" category="vehicles"/>
+	<file src = "files/vehicles/506.txd" download = "false" model = "506" name="1991 Mitsubishi 3000GT"/>
+	<file src = "files/vehicles/506.dff" download = "false" model = "506" name="1991 Mitsubishi 3000GT"/>
 		
-	<file src = "files/451.txd" download = "false" model = "451" isim="1990 Ferrari F40" category="vehicles"/>
-	<file src = "files/451.dff" download = "false" model = "451" isim="1990 Ferrari F40" category="vehicles"/>
+	<file src = "files/vehicles/451.txd" download = "false" model = "451" name="1990 Ferrari F40"/>
+	<file src = "files/vehicles/451.dff" download = "false" model = "451" name="1990 Ferrari F40"/>
 	
-	<file src = "files/480.txd" download = "false" model = "480" isim="1990 Porche 911" category="vehicles"/>
-	<file src = "files/480.dff" download = "false" model = "480" isim="1990 Porche 911" category="vehicles"/>
+	<file src = "files/vehicles/480.txd" download = "false" model = "480" name="1990 Porche 911"/>
+	<file src = "files/vehicles/480.dff" download = "false" model = "480" name="1990 Porche 911"/>
 	
-	<file src = "files/415.txd" download = "false" model = "415" isim="1995 Lamborghini Diablo" category="vehicles"/>
-	<file src = "files/415.dff" download = "false" model = "415" isim="1995 Lamborghini Diablo" category="vehicles"/>
+	<file src = "files/vehicles/415.txd" download = "false" model = "415" name="1995 Lamborghini Diablo"/>
+	<file src = "files/vehicles/415.dff" download = "false" model = "415" name="1995 Lamborghini Diablo"/>
 	
-	<file src = "files/445.txd" download = "false" model = "445" isim="1974 Mercedes 280S" category="vehicles"/>
-	<file src = "files/445.dff" download = "false" model = "445" isim="1974 Mercedes 280S" category="vehicles"/>
+	<file src = "files/vehicles/445.txd" download = "false" model = "445" name="1974 Mercedes 280S"/>
+	<file src = "files/vehicles/445.dff" download = "false" model = "445" name="1974 Mercedes 280S"/>
 
-	<file src = "files/507.txd" download = "false" model = "507" isim="1997 BMW 320İ" category="vehicles"/>
-	<file src = "files/507.dff" download = "false" model = "507" isim="1997 BMW 320İ" category="vehicles"/>
+	<file src = "files/vehicles/507.txd" download = "false" model = "507" name="1997 BMW 320İ"/>
+	<file src = "files/vehicles/507.dff" download = "false" model = "507" name="1997 BMW 320İ"/>
 
-	<file src = "files/585.txd" download = "false" model = "585" isim="2019 BMW M5 F90 Competition" category="vehicles"/>
-	<file src = "files/585.dff" download = "false" model = "585" isim="2019 BMW M5 F90 Competition" category="vehicles"/>
+	<file src = "files/vehicles/585.txd" download = "false" model = "585" name="2019 BMW M5 F90 Competition"/>
+	<file src = "files/vehicles/585.dff" download = "false" model = "585" name="2019 BMW M5 F90 Competition"/>
 
-	<file src = "files/466.txd" download = "false" model = "466" isim="1996 Toyota Corolla" category="vehicles"/>
-	<file src = "files/466.dff" download = "false" model = "466" isim="1996 Toyota Corolla" category="vehicles"/>
+	<file src = "files/vehicles/466.txd" download = "false" model = "466" name="1996 Toyota Corolla"/>
+	<file src = "files/vehicles/466.dff" download = "false" model = "466" name="1996 Toyota Corolla"/>
 
-	<file src = "files/492.txd" download = "false" model = "492" isim="2019 Audi A7 SportBack" category="vehicles"/>
-	<file src = "files/492.dff" download = "false" model = "492" isim="2019 Audi A7 SportBack" category="vehicles"/>
+	<file src = "files/vehicles/492.txd" download = "false" model = "492" name="2019 Audi A7 SportBack"/>
+	<file src = "files/vehicles/492.dff" download = "false" model = "492" name="2019 Audi A7 SportBack"/>
 
-	<file src = "files/546.txd" download = "false" model = "546" isim="2012 Audi A6" category="vehicles"/>
-	<file src = "files/546.dff" download = "false" model = "546" isim="2012 Audi A6" category="vehicles"/>
+	<file src = "files/vehicles/546.txd" download = "false" model = "546" name="2012 Audi A6"/>
+	<file src = "files/vehicles/546.dff" download = "false" model = "546" name="2012 Audi A6"/>
 	
-	<file src = "files/551.txd" download = "false" model = "551" isim="2016 Audi A3" category="vehicles"/>
-	<file src = "files/551.dff" download = "false" model = "551" isim="2016 Audi A3" category="vehicles"/>
+	<file src = "files/vehicles/551.txd" download = "false" model = "551" name="2016 Audi A3"/>
+	<file src = "files/vehicles/551.dff" download = "false" model = "551" name="2016 Audi A3"/>
 	
-	<file src = "files/516.txd" download = "false" model = "516" isim="2016 Ford Focus RS" category="vehicles"/>
-	<file src = "files/516.dff" download = "false" model = "516" isim="2016 Ford Focus RS" category="vehicles"/>
+	<file src = "files/vehicles/516.txd" download = "false" model = "516" name="2016 Ford Focus RS"/>
+	<file src = "files/vehicles/516.dff" download = "false" model = "516" name="2016 Ford Focus RS"/>
 		
-	<file src = "files/426.txd" download = "false" model = "426" isim="2017 Opel Astra" category="vehicles"/>
-	<file src = "files/426.dff" download = "false" model = "426" isim="2017 Opel Astra" category="vehicles"/>
+	<file src = "files/vehicles/426.txd" download = "false" model = "426" name="2017 Opel Astra"/>
+	<file src = "files/vehicles/426.dff" download = "false" model = "426" name="2017 Opel Astra"/>
 
-	<file src = "files/405.txd" download = "false" model = "405" isim="2021 Volkswagen Passat Highline" category="vehicles"/>
-	<file src = "files/405.dff" download = "false" model = "405" isim="2021 Volkswagen Passat Highline" category="vehicles"/>
+	<file src = "files/vehicles/405.txd" download = "false" model = "405" name="2021 Volkswagen Passat Highline"/>
+	<file src = "files/vehicles/405.dff" download = "false" model = "405" name="2021 Volkswagen Passat Highline"/>
 	
-	<file src = "files/500.txd" download = "false" model = "500" isim="2009 Jeep Wrangler" category="vehicles"/>
-	<file src = "files/500.dff" download = "false" model = "500" isim="2009 Jeep Wrangler" category="vehicles"/>
+	<file src = "files/vehicles/500.txd" download = "false" model = "500" name="2009 Jeep Wrangler"/>
+	<file src = "files/vehicles/500.dff" download = "false" model = "500" name="2009 Jeep Wrangler"/>
 	
-	<file src = "files/495.txd" download = "false" model = "495" isim="1991 Jeep Cherokee" category="vehicles"/>
-	<file src = "files/495.dff" download = "false" model = "495" isim="1991 Jeep Cherokee" category="vehicles"/>
+	<file src = "files/vehicles/495.txd" download = "false" model = "495" name="1991 Jeep Cherokee"/>
+	<file src = "files/vehicles/495.dff" download = "false" model = "495" name="1991 Jeep Cherokee"/>
 	
-	<file src = "files/470.txd" download = "false" model = "470" isim="2005 Hummer H2" category="vehicles"/>
-	<file src = "files/470.dff" download = "false" model = "470" isim="2005 Hummer H2" category="vehicles"/>
+	<file src = "files/vehicles/470.txd" download = "false" model = "470" name="2005 Hummer H2"/>
+	<file src = "files/vehicles/470.dff" download = "false" model = "470" name="2005 Hummer H2"/>
 	
-	<file src = "files/579.txd" download = "false" model = "579" isim="2001 Range Rover 4.6 Vouge" category="vehicles"/>
-	<file src = "files/579.dff" download = "false" model = "579" isim="2001 Range Rover 4.6 Vouge" category="vehicles"/>
+	<file src = "files/vehicles/579.txd" download = "false" model = "579" name="2001 Range Rover 4.6 Vouge"/>
+	<file src = "files/vehicles/579.dff" download = "false" model = "579" name="2001 Range Rover 4.6 Vouge"/>
 	
-	<file src = "files/400.txd" download = "false" model = "400" isim="2011 Range Rover 3.6 Vouge" category="vehicles"/>
-	<file src = "files/400.dff" download = "false" model = "400" isim="2011 Range Rover 3.6 Vouge" category="vehicles"/>
+	<file src = "files/vehicles/400.txd" download = "false" model = "400" name="2011 Range Rover 3.6 Vouge"/>
+	<file src = "files/vehicles/400.dff" download = "false" model = "400" name="2011 Range Rover 3.6 Vouge"/>
 	
-	<file src = "files/455.txd" download = "false" model = "455" isim="2022 Flatbed" category="vehicles"/>
-	<file src = "files/455.dff" download = "false" model = "455" isim="2022 Flatbed" category="vehicles"/>
+	<file src = "files/vehicles/455.txd" download = "false" model = "455" name="2022 Flatbed"/>
+	<file src = "files/vehicles/455.dff" download = "false" model = "455" name="2022 Flatbed"/>
 	
-	<file src = "files/542.txd" download = "false" model = "542" isim="1970 GSX Buick'in Pontiac" category="vehicles"/>
-	<file src = "files/542.dff" download = "false" model = "542" isim="1970 GSX Buick'in Pontiac" category="vehicles"/>
+	<file src = "files/vehicles/542.txd" download = "false" model = "542" name="1970 GSX Buick'in Pontiac"/>
+	<file src = "files/vehicles/542.dff" download = "false" model = "542" name="1970 GSX Buick'in Pontiac"/>
 	
-	<file src = "files/515.txd" download = "false" model = "515" isim="2022 Road Train" category="vehicles"/>
-	<file src = "files/515.dff" download = "false" model = "515" isim="2022 Road Train" category="vehicles"/>
+	<file src = "files/vehicles/515.txd" download = "false" model = "515" name="2022 Road Train"/>
+	<file src = "files/vehicles/515.dff" download = "false" model = "515" name="2022 Road Train"/>
 	
-	<file src = "files/403.txd" download = "false" model = "403" isim="2022 Line Runner" category="vehicles"/>
-	<file src = "files/403.dff" download = "false" model = "403" isim="2022 Line Runner" category="vehicles"/>
+	<file src = "files/vehicles/403.txd" download = "false" model = "403" name="2022 Line Runner"/>
+	<file src = "files/vehicles/403.dff" download = "false" model = "403" name="2022 Line Runner"/>
 		
-	<file src = "files/602.txd" download = "false" model = "602" isim="1968 Ford Mustang 351" category="vehicles"/>
-	<file src = "files/602.dff" download = "false" model = "602" isim="1968 Ford Mustang 351" category="vehicles"/>
+	<file src = "files/vehicles/602.txd" download = "false" model = "602" name="1968 Ford Mustang 351"/>
+	<file src = "files/vehicles/602.dff" download = "false" model = "602" name="1968 Ford Mustang 351"/>
 			
-	<file src = "files/496.txd" download = "false" model = "496" isim="1974 Volkswagen VW BİG" category="vehicles"/>
-	<file src = "files/496.dff" download = "false" model = "496" isim="1974 Volkswagen VW BİG" category="vehicles"/>
+	<file src = "files/vehicles/496.txd" download = "false" model = "496" name="1974 Volkswagen VW BİG"/>
+	<file src = "files/vehicles/496.dff" download = "false" model = "496" name="1974 Volkswagen VW BİG"/>
 		
-	<file src = "files/401.txd" download = "false" model = "401" isim="2015 Volkswagen Scirocco" category="vehicles"/>
-	<file src = "files/401.dff" download = "false" model = "401" isim="2015 Volkswagen Scirocco" category="vehicles"/>
+	<file src = "files/vehicles/401.txd" download = "false" model = "401" name="2015 Volkswagen Scirocco"/>
+	<file src = "files/vehicles/401.dff" download = "false" model = "401" name="2015 Volkswagen Scirocco"/>
 		
-	<file src = "files/518.txd" download = "false" model = "518" isim="2011 Porche 911" category="vehicles"/>
-	<file src = "files/518.dff" download = "false" model = "518" isim="2011 Porche 911" category="vehicles"/>
+	<file src = "files/vehicles/518.txd" download = "false" model = "518" name="2011 Porche 911"/>
+	<file src = "files/vehicles/518.dff" download = "false" model = "518" name="2011 Porche 911"/>
 		
-	<file src = "files/527.txd" download = "false" model = "527" isim="2010 Mazda RX-8" category="vehicles"/>
-	<file src = "files/527.dff" download = "false" model = "527" isim="2010 Mazda RX-8" category="vehicles"/>
+	<file src = "files/vehicles/527.txd" download = "false" model = "527" name="2010 Mazda RX-8"/>
+	<file src = "files/vehicles/527.dff" download = "false" model = "527" name="2010 Mazda RX-8"/>
 	
-	<file src = "files/419.txd" download = "false" model = "419" isim="2017 Mercedes E500 Coupe" category="vehicles"/>
-	<file src = "files/419.dff" download = "false" model = "419" isim="2017 Mercedes E500 Coupe" category="vehicles"/>
+	<file src = "files/vehicles/419.txd" download = "false" model = "419" name="2017 Mercedes E500 Coupe"/>
+	<file src = "files/vehicles/419.dff" download = "false" model = "419" name="2017 Mercedes E500 Coupe"/>
 	
-	<file src = "files/587.txd" download = "false" model = "587" isim="2011 Audi TT" category="vehicles"/>
-	<file src = "files/587.dff" download = "false" model = "587" isim="2011 Audi TT" category="vehicles"/>
+	<file src = "files/vehicles/587.txd" download = "false" model = "587" name="2011 Audi TT"/>
+	<file src = "files/vehicles/587.dff" download = "false" model = "587" name="2011 Audi TT"/>
 	
-	<file src = "files/526.txd" download = "false" model = "526" isim="2008 BMW E92" category="vehicles"/>
-	<file src = "files/526.dff" download = "false" model = "526" isim="2008 BMW E92" category="vehicles"/>
+	<file src = "files/vehicles/526.txd" download = "false" model = "526" name="2008 BMW E92"/>
+	<file src = "files/vehicles/526.dff" download = "false" model = "526" name="2008 BMW E92"/>
 	
-	<file src = "files/533.txd" download = "false" model = "533" isim="2020 BMW 640i" category="vehicles"/>
-	<file src = "files/533.dff" download = "false" model = "533" isim="2020 BMW 640i" category="vehicles"/>
+	<file src = "files/vehicles/533.txd" download = "false" model = "533" name="2020 BMW 640i"/>
+	<file src = "files/vehicles/533.dff" download = "false" model = "533" name="2020 BMW 640i"/>
 	
-	<file src = "files/474.txd" download = "false" model = "474" isim="2011 Peguet RCZ" category="vehicles"/>
-	<file src = "files/474.dff" download = "false" model = "474" isim="2011 Peguet RCZ" category="vehicles"/>
+	<file src = "files/vehicles/474.txd" download = "false" model = "474" name="2011 Peguet RCZ"/>
+	<file src = "files/vehicles/474.dff" download = "false" model = "474" name="2011 Peguet RCZ"/>
 	
-	<file src = "files/545.txd" download = "false" model = "545" isim="2008 BMW E36" category="vehicles"/>
-	<file src = "files/545.dff" download = "false" model = "545" isim="2008 BMW E36" category="vehicles"/>
+	<file src = "files/vehicles/545.txd" download = "false" model = "545" name="2008 BMW E36"/>
+	<file src = "files/vehicles/545.dff" download = "false" model = "545" name="2008 BMW E36"/>
 	
-	<file src = "files/517.txd" download = "false" model = "517" isim="2006 Alfa Romeo GT" category="vehicles"/>
-	<file src = "files/517.dff" download = "false" model = "517" isim="2006 Alfa Romeo GT" category="vehicles"/>
+	<file src = "files/vehicles/517.txd" download = "false" model = "517" name="2006 Alfa Romeo GT"/>
+	<file src = "files/vehicles/517.dff" download = "false" model = "517" name="2006 Alfa Romeo GT"/>
 	
-	<file src = "files/410.txd" download = "false" model = "410" isim="2011 Hyundai Genesis Coupe" category="vehicles"/>
-	<file src = "files/410.dff" download = "false" model = "410" isim="2011 Hyundai Genesis Coupe" category="vehicles"/>
+	<file src = "files/vehicles/410.txd" download = "false" model = "410" name="2011 Hyundai Genesis Coupe"/>
+	<file src = "files/vehicles/410.dff" download = "false" model = "410" name="2011 Hyundai Genesis Coupe"/>
 	
-	<file src = "files/581.txd" download = "false" model = "581" isim="2011 Honda CBR125" category="vehicles"/>
-	<file src = "files/581.dff" download = "false" model = "581" isim="2011 Honda CBR125" category="vehicles"/>
+	<file src = "files/vehicles/581.txd" download = "false" model = "581" name="2011 Honda CBR125"/>
+	<file src = "files/vehicles/581.dff" download = "false" model = "581" name="2011 Honda CBR125"/>
 	
-	<file src = "files/462.txd" download = "false" model = "462" isim="2005 Scooter Glaxy" category="vehicles"/>
-	<file src = "files/462.dff" download = "false" model = "462" isim="2005 Scooter Glaxy" category="vehicles"/>
+	<file src = "files/vehicles/462.txd" download = "false" model = "462" name="2005 Scooter Glaxy"/>
+	<file src = "files/vehicles/462.dff" download = "false" model = "462" name="2005 Scooter Glaxy"/>
 	
-	<file src = "files/521.txd" download = "false" model = "521" isim="2016 Yamaha R25" category="vehicles"/>
-	<file src = "files/521.dff" download = "false" model = "521" isim="2016 Yamaha R25" category="vehicles"/>
+	<file src = "files/vehicles/521.txd" download = "false" model = "521" name="2016 Yamaha R25"/>
+	<file src = "files/vehicles/521.dff" download = "false" model = "521" name="2016 Yamaha R25"/>
 	
-	<file src = "files/463.txd" download = "false" model = "463" isim="2010 Harley Davidson Fat Boy Lo" category="vehicles"/>
-	<file src = "files/463.dff" download = "false" model = "463" isim="2010 Harley Davidson Fat Boy Lo" category="vehicles"/>
+	<file src = "files/vehicles/463.txd" download = "false" model = "463" name="2010 Harley Davidson Fat Boy Lo"/>
+	<file src = "files/vehicles/463.dff" download = "false" model = "463" name="2010 Harley Davidson Fat Boy Lo"/>
 	
-	<file src = "files/461.txd" download = "false" model = "461" isim="2021 Yamaha R6" category="vehicles"/>
-	<file src = "files/461.dff" download = "false" model = "461" isim="2021 Yamaha R6" category="vehicles"/>
+	<file src = "files/vehicles/461.txd" download = "false" model = "461" name="2021 Yamaha R6"/>
+	<file src = "files/vehicles/461.dff" download = "false" model = "461" name="2021 Yamaha R6"/>
 	
-	<file src = "files/468.txd" download = "false" model = "468" isim="2010 Kawasaki KLX 250S" category="vehicles"/>
-	<file src = "files/468.dff" download = "false" model = "468" isim="2010 Kawasaki KLX 250S" category="vehicles"/>
+	<file src = "files/vehicles/468.txd" download = "false" model = "468" name="2010 Kawasaki KLX 250S"/>
+	<file src = "files/vehicles/468.dff" download = "false" model = "468" name="2010 Kawasaki KLX 250S"/>
 	
-	<file src = "files/471.txd" download = "false" model = "471" isim="2022 CF625" category="vehicles"/>
-	<file src = "files/471.dff" download = "false" model = "471" isim="2022 CF625" category="vehicles"/>
+	<file src = "files/vehicles/471.txd" download = "false" model = "471" name="2022 CF625"/>
+	<file src = "files/vehicles/471.dff" download = "false" model = "471" name="2022 CF625"/>
 	
-	<file src = "files/598.txd" download = "false" model = "598" isim="Police LV" category="vehicles"/>
-    <file src = "files/598.dff" download = "false" model = "598" isim="Police LV" category="vehicles"/>
+	<file src = "files/vehicles/598.txd" download = "false" model = "598" name="2005 BMW E60 Polis"/>
+    <file src = "files/vehicles/598.dff" download = "false" model = "598" name="2005 BMW E60 Polis"/>
 
-    <file src = "files/596.txd" download = "false" model = "596" isim="Police LS" category="vehicles"/>
-    <file src = "files/596.dff" download = "false" model = "596" isim="Police LS" category="vehicles"/>
+    <file src = "files/vehicles/596.txd" download = "false" model = "596" name="2010 Police LS"/>
+    <file src = "files/vehicles/596.dff" download = "false" model = "596" name="2010 Police LS"/>
 
-    <file src = "files/597.txd" download = "false" model = "597" isim="Police SF" category="vehicles"/>
-    <file src = "files/597.dff" download = "false" model = "597" isim="Police SF" category="vehicles"/>
+    <file src = "files/vehicles/597.txd" download = "false" model = "597" name="2007 Hyundai Accent Era Polis"/>
+    <file src = "files/vehicles/597.dff" download = "false" model = "597" name="2007 Hyundai Accent Era Polis"/>
 
-    <file src = "files/490.txd" download = "false" model = "490" isim="FBI Racnher" category="vehicles"/>
-    <file src = "files/490.dff" download = "false" model = "490" isim="FBI Rancher" category="vehicles"/>
+    <file src = "files/vehicles/490.txd" download = "false" model = "490" name="2012 FBI Racnher"/>
+    <file src = "files/vehicles/490.dff" download = "false" model = "490" name="2012 FBI Rancher"/>
 
-	<file src = "files/494.txd" download = "false" model = "494" isim="2012 Mercedes C63 AMG BlackSeries" category="vehicles"/>
-    <file src = "files/494.dff" download = "false" model = "494" isim="2012 Mercedes C63 AMG BlackSeries" category="vehicles"/>
+	<file src = "files/vehicles/494.txd" download = "false" model = "494" name="2012 Mercedes C63 AMG BlackSeries"/>
+    <file src = "files/vehicles/494.dff" download = "false" model = "494" name="2012 Mercedes C63 AMG BlackSeries"/>
 
-    <file src = "files/502.txd" download = "false" model = "502" isim="2017 Ford GT" category="vehicles"/>
-    <file src = "files/502.dff" download = "false" model = "502" isim="2017 Ford GT" category="vehicles"/>
+    <file src = "files/vehicles/502.txd" download = "false" model = "502" name="2017 Ford GT"/>
+    <file src = "files/vehicles/502.dff" download = "false" model = "502" name="2017 Ford GT"/>
 
-    <file src = "files/503.txd" download = "false" model = "503" isim="2018 Nissan GT-R R35" category="vehicles"/>
-    <file src = "files/503.dff" download = "false" model = "503" isim="2018 Nissan GT-R R35" category="vehicles"/>
+    <file src = "files/vehicles/503.txd" download = "false" model = "503" name="2018 Nissan GT-R R35"/>
+    <file src = "files/vehicles/503.dff" download = "false" model = "503" name="2018 Nissan GT-R R35"/>
 
-    <file src = "files/589.txd" download = "false" model = "589" isim="Golf MK2" category="vehicles"/>
-    <file src = "files/589.dff" download = "false" model = "589" isim="Golf MK2" category="vehicles"/>
+    <file src = "files/vehicles/589.txd" download = "false" model = "589" name="1987 Golf MK2"/>
+    <file src = "files/vehicles/589.dff" download = "false" model = "589" name="1987 MK2"/>
 	
-	<file src = "files/522.txd" download = "false" model = "522" isim="2017 Kawasaki Ninja H2R" category="vehicles"/>
-    <file src = "files/522.dff" download = "false" model = "522" isim="2017 Kawasaki Ninja H2R" category="vehicles"/>
+	<file src = "files/vehicles/522.txd" download = "false" model = "522" name="2017 Kawasaki Ninja H2R"/>
+    <file src = "files/vehicles/522.dff" download = "false" model = "522" name="2017 Kawasaki Ninja H2R"/>
 
-    <file src = "files/504.txd" download = "false" model = "504" isim="2017 Dodge Challenger SRT Demon" category="vehicles"/>
-    <file src = "files/504.dff" download = "false" model = "504" isim="2017 Dodge Challenger SRT Demon" category="vehicles"/>
+    <file src = "files/vehicles/504.txd" download = "false" model = "504" name="2017 Dodge Challenger SRT Demon"/>
+    <file src = "files/vehicles/504.dff" download = "false" model = "504" name="2017 Dodge Challenger SRT Demon"/>
 
-	<file src = "files/547.txd" download = "false" model = "547" isim="2004 Opel Vectra" category="vehicles"/>
-    <file src = "files/547.dff" download = "false" model = "547" isim="2004 Opel Vectra" category="vehicles"/>
+	<file src = "files/vehicles/547.txd" download = "false" model = "547" name="2004 Opel Vectra"/>
+    <file src = "files/vehicles/547.dff" download = "false" model = "547" name="2004 Opel Vectra"/>
 
-    <file src = "files/467.txd" download = "false" model = "467" isim="2019 Golf MK7" category="vehicles"/>
-    <file src = "files/467.dff" download = "false" model = "467" isim="2019 Golf MK7" category="vehicles"/>
+    <file src = "files/vehicles/467.txd" download = "false" model = "467" name="2019 Golf MK7"/>
+    <file src = "files/vehicles/467.dff" download = "false" model = "467" name="2019 Golf MK7"/>
 
-    <file src = "files/477.txd" download = "false" model = "477" isim="1998 Toyota Supra" category="vehicles"/>
-    <file src = "files/477.dff" download = "false" model = "477" isim="1998 Toyota Supra" category="vehicles"/>
+    <file src = "files/vehicles/477.txd" download = "false" model = "477" name="1998 Toyota Supra"/>
+    <file src = "files/vehicles/477.dff" download = "false" model = "477" name="1998 Toyota Supra"/>
 	
     <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
 </meta>
